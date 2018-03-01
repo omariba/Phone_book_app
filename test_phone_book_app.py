@@ -15,7 +15,7 @@ class PhoneBookTestCases(unittest.TestCase):
 	def test_read_contact(self):
 		phonebook = PhoneBook()
 		response = phonebook.read_contact("Doe")
-		assert(response,contacts["Doe"])
+		assert(response,"070000000")
 
 	def test_delete_contact(self):
 		phonebook = PhoneBook()
